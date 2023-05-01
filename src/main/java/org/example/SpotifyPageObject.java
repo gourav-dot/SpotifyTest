@@ -52,28 +52,28 @@ public class SpotifyPageObject
     }
     public void editPlaylistDetails() throws InterruptedException {
         driver.findElement(clickOnPlaylist).click();
-       // Thread.sleep(1000);
+        Thread.sleep(1000);
         driver.findElement(clickOnThreeDots).click();
-      //  Thread.sleep(1000);
+        Thread.sleep(1000);
         driver.findElement(clickOnEditDetails).click();
-      //  Thread.sleep(1000);
+        Thread.sleep(1000);
 
         WebElement nameInput2 = driver.findElement(playlistName);
         nameInput2.clear();
         Thread.sleep(500);
         nameInput2.sendKeys("Test Playlist");
         driver.findElement(clickSave).click();
-      //  Thread.sleep(1000);
+        Thread.sleep(1000);
     }
     public void searchSong(String song) throws InterruptedException {
         driver.findElement(searchSongName).sendKeys(song);
-       // Thread.sleep(1000);
+        Thread.sleep(1000);
     }
     public void addSongToPlaylist() throws InterruptedException {
         driver.findElement(addButton).click();
-       // Thread.sleep(1000);
+        Thread.sleep(1000);
         driver.findElement(crossButton).click();
-        //Thread.sleep(500);
+        Thread.sleep(500);
     }
     public void playSong() throws InterruptedException {
         driver.findElement(playButton).click();
@@ -81,20 +81,20 @@ public class SpotifyPageObject
     }
     public void pauseSong() throws InterruptedException {
         driver.findElement(pauseButton).click();
-      //  Thread.sleep(1000);
+        Thread.sleep(1000);
     }
     public void removeSongFromPlaylist() throws InterruptedException {
         driver.findElement(clickOnSong).click();
-      //  Thread.sleep(1000);
+        Thread.sleep(1000);
         driver.findElement(removeSong).click();
-      //  Thread.sleep(1000);
+        Thread.sleep(1000);
     }
     public void deletePlaylist() throws InterruptedException {
         driver.findElement(playlistOption).click();
-       // Thread.sleep(1000);
+        Thread.sleep(1000);
         driver.findElement(delete).click();
-      //  Thread.sleep(1000);
+        Thread.sleep(1000);
         driver.findElement(deleteConfirm).click();
-       // Thread.sleep(1000);
+        Thread.sleep(1000);
     }
 }
