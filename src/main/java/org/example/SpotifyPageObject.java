@@ -15,7 +15,6 @@ public class SpotifyPageObject
     ResourceBundle r=ResourceBundle.getBundle("config");
     String username=r.getString("username");
     String password=r.getString("password");
-
     By loginButton= By.xpath("//span[contains(text(),'Log in')]");
     By usernameField=By.xpath("//input[@id='login-username']");
     By passwordField=By.xpath("//input[@id='login-password']");

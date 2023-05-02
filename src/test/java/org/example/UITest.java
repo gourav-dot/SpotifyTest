@@ -13,7 +13,6 @@ public class UITest extends baseTest {
         spo.login();
         driver.manage().deleteAllCookies();
     }
-
     @Test
     public void createPlayList() throws InterruptedException {
         SpotifyPageObject spo = new SpotifyPageObject(driver);
@@ -21,9 +20,7 @@ public class UITest extends baseTest {
         spo.createPlaylist();
         spo.deletePlaylist();
         driver.manage().deleteAllCookies();
-
     }
-
     @Test
     public void EditPayListDetails() throws InterruptedException {
         SpotifyPageObject spo = new SpotifyPageObject(driver);
@@ -32,9 +29,7 @@ public class UITest extends baseTest {
         spo.editPlaylistDetails();
         spo.deletePlaylist();
         driver.manage().deleteAllCookies();
-
     }
-
     @Test
     public void SearchSong() throws InterruptedException {
         SpotifyPageObject spo = new SpotifyPageObject(driver);
@@ -43,9 +38,7 @@ public class UITest extends baseTest {
         spo.searchSong("Ram Siya Ram");
         spo.deletePlaylist();
         driver.manage().deleteAllCookies();
-
     }
-
     @Test
     public void AddSongToPlayList() throws InterruptedException {
         SpotifyPageObject spo = new SpotifyPageObject(driver);
@@ -55,9 +48,7 @@ public class UITest extends baseTest {
         spo.addSongToPlaylist();
         spo.deletePlaylist();
         driver.manage().deleteAllCookies();
-
     }
-
     @Test
     public void PlaySong() throws InterruptedException {
         SpotifyPageObject spo = new SpotifyPageObject(driver);
@@ -69,7 +60,6 @@ public class UITest extends baseTest {
         spo.deletePlaylist();
         driver.manage().deleteAllCookies();
     }
-
     @Test
     public void PauseSong() throws InterruptedException {
         SpotifyPageObject spo = new SpotifyPageObject(driver);
@@ -81,9 +71,7 @@ public class UITest extends baseTest {
         spo.pauseSong();
         spo.deletePlaylist();
         driver.manage().deleteAllCookies();
-
     }
-
     @Test
     public void RemoveSong() throws InterruptedException {
         SpotifyPageObject spo = new SpotifyPageObject(driver);
@@ -94,9 +82,7 @@ public class UITest extends baseTest {
         spo.removeSongFromPlaylist();
         spo.deletePlaylist();
         driver.manage().deleteAllCookies();
-
     }
-
     @Test
     public void DeletePlayList() throws InterruptedException {
         SpotifyPageObject spo = new SpotifyPageObject(driver);
@@ -105,7 +91,6 @@ public class UITest extends baseTest {
         spo.deletePlaylist();
         driver.manage().deleteAllCookies();
     }
-
     @Test
     public void FullTest() throws InterruptedException {
         SpotifyPageObject spo = new SpotifyPageObject(driver);
