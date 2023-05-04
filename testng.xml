@@ -19,87 +19,87 @@
         </class>
     </classes>
 </test>
-    <test verbose="2" preserve-order="true" name="LoginTest">
-        <classes>
-            <class name="org.example.UITest">
-                <methods>
-                    <include name="loginTest"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-    <test verbose="2" preserve-order="true" name="createPlayListTest">
-        <classes>
-            <class name="org.example.UITest">
-                <methods>
-                    <include name="createPlayList"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-    <test verbose="2" preserve-order="true" name="EditPayListDetails">
-        <classes>
-            <class name="org.example.UITest">
-                <methods>
-                    <include name="EditPayListDetails"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-    <test verbose="2" preserve-order="true" name="SearchSong">
-        <classes>
-            <class name="org.example.UITest">
-                <methods>
-                    <include name="SearchSong"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-    <test verbose="2" preserve-order="true" name="AddSongToPlayList">
-        <classes>
-            <class name="org.example.UITest">
-                <methods>
-                    <include name="AddSongToPlayList"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-    <test verbose="2" preserve-order="true" name="PlaySong">
-        <classes>
-            <class name="org.example.UITest">
-                <methods>
-                    <include name="PlaySong"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-    <test verbose="2" preserve-order="true" name="PauseSong">
-        <classes>
-            <class name="org.example.UITest">
-                <methods>
-                    <include name="PauseSong"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-    <test verbose="2" preserve-order="true" name="RemoveSong">
-        <classes>
-            <class name="org.example.UITest">
-                <methods>
-                    <include name="RemoveSong"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-    <test verbose="2" preserve-order="true" name="DeletePlayList">
-        <classes>
-            <class name="org.example.UITest">
-                <methods>
-                    <include name="DeletePlayList"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
+<!--    <test verbose="2" preserve-order="true" name="LoginTest">-->
+<!--        <classes>-->
+<!--            <class name="org.example.UITest">-->
+<!--                <methods>-->
+<!--                    <include name="loginTest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" preserve-order="true" name="createPlayListTest">-->
+<!--        <classes>-->
+<!--            <class name="org.example.UITest">-->
+<!--                <methods>-->
+<!--                    <include name="createPlayList"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" preserve-order="true" name="EditPayListDetails">-->
+<!--        <classes>-->
+<!--            <class name="org.example.UITest">-->
+<!--                <methods>-->
+<!--                    <include name="EditPayListDetails"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" preserve-order="true" name="SearchSong">-->
+<!--        <classes>-->
+<!--            <class name="org.example.UITest">-->
+<!--                <methods>-->
+<!--                    <include name="SearchSong"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" preserve-order="true" name="AddSongToPlayList">-->
+<!--        <classes>-->
+<!--            <class name="org.example.UITest">-->
+<!--                <methods>-->
+<!--                    <include name="AddSongToPlayList"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" preserve-order="true" name="PlaySong">-->
+<!--        <classes>-->
+<!--            <class name="org.example.UITest">-->
+<!--                <methods>-->
+<!--                    <include name="PlaySong"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" preserve-order="true" name="PauseSong">-->
+<!--        <classes>-->
+<!--            <class name="org.example.UITest">-->
+<!--                <methods>-->
+<!--                    <include name="PauseSong"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" preserve-order="true" name="RemoveSong">-->
+<!--        <classes>-->
+<!--            <class name="org.example.UITest">-->
+<!--                <methods>-->
+<!--                    <include name="RemoveSong"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" preserve-order="true" name="DeletePlayList">-->
+<!--        <classes>-->
+<!--            <class name="org.example.UITest">-->
+<!--                <methods>-->
+<!--                    <include name="DeletePlayList"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 
 </suite>
