@@ -2,6 +2,7 @@ package org.example;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class UITest extends baseTest {
@@ -19,6 +20,7 @@ public class UITest extends baseTest {
         spo.login();
         spo.createPlaylist();
         spo.deletePlaylist();
+        Assert.assertEquals(spo.createButtonVisible(),"Create playlist");
         driver.manage().deleteAllCookies();
     }
     @Test
@@ -28,6 +30,7 @@ public class UITest extends baseTest {
         spo.createPlaylist();
         spo.editPlaylistDetails();
         spo.deletePlaylist();
+        Assert.assertEquals(spo.createButtonVisible(),"Create playlist");
         driver.manage().deleteAllCookies();
     }
     @Test
@@ -37,6 +40,7 @@ public class UITest extends baseTest {
         spo.createPlaylist();
         spo.searchSong("Ram Siya Ram");
         spo.deletePlaylist();
+        Assert.assertEquals(spo.createButtonVisible(),"Create playlist");
         driver.manage().deleteAllCookies();
     }
     @Test
@@ -47,6 +51,7 @@ public class UITest extends baseTest {
         spo.searchSong("Ram Siya Ram");
         spo.addSongToPlaylist();
         spo.deletePlaylist();
+        Assert.assertEquals(spo.createButtonVisible(),"Create playlist");
         driver.manage().deleteAllCookies();
     }
     @Test
@@ -58,6 +63,7 @@ public class UITest extends baseTest {
         spo.addSongToPlaylist();
         spo.playSong();
         spo.deletePlaylist();
+        Assert.assertEquals(spo.createButtonVisible(),"Create playlist");
         driver.manage().deleteAllCookies();
     }
     @Test
@@ -70,6 +76,7 @@ public class UITest extends baseTest {
         spo.playSong();
         spo.pauseSong();
         spo.deletePlaylist();
+        Assert.assertEquals(spo.createButtonVisible(),"Create playlist");
         driver.manage().deleteAllCookies();
     }
     @Test
@@ -81,6 +88,7 @@ public class UITest extends baseTest {
         spo.addSongToPlaylist();
         spo.removeSongFromPlaylist();
         spo.deletePlaylist();
+        Assert.assertEquals(spo.createButtonVisible(),"Create playlist");
         driver.manage().deleteAllCookies();
     }
     @Test
@@ -89,6 +97,7 @@ public class UITest extends baseTest {
         spo.login();
         spo.createPlaylist();
         spo.deletePlaylist();
+        Assert.assertEquals(spo.createButtonVisible(),"Create playlist");
         driver.manage().deleteAllCookies();
     }
     @Test
@@ -103,6 +112,7 @@ public class UITest extends baseTest {
         spo.pauseSong();
         spo.removeSongFromPlaylist();
         spo.deletePlaylist();
+        Assert.assertEquals(spo.createButtonVisible(),"Create playlist");
         driver.manage().deleteAllCookies();
     }
 }

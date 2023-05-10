@@ -79,6 +79,7 @@ public class SpotifyPageObject
         Thread.sleep(5000);
     }
     public void pauseSong() throws InterruptedException {
+        Thread.sleep(1000);
         driver.findElement(pauseButton).click();
         Thread.sleep(1000);
     }
@@ -95,5 +96,9 @@ public class SpotifyPageObject
         Thread.sleep(1000);
         driver.findElement(deleteConfirm).click();
         Thread.sleep(1000);
+    }
+    public String createButtonVisible(){
+       String text= driver.findElement(createPlaylistButton).getText();
+       return text;
     }
 }
