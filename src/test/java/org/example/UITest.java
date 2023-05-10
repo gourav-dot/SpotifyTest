@@ -12,6 +12,7 @@ public class UITest extends baseTest {
     public void loginTest() throws InterruptedException {
         SpotifyPageObject spo = new SpotifyPageObject(driver);
         spo.login();
+        Assert.assertEquals(spo.createButtonVisible(),"Create playlist");
         driver.manage().deleteAllCookies();
     }
     @Test
